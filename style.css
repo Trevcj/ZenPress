@@ -1,0 +1,142 @@
+/*
+  Theme Name: ZenPress
+  Author: Trevor James
+  Author URI: https://www.trevcj.com
+  Version: 1.0
+  Description: Custom WordPress theme for ZenBusiness
+
+*/
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Sanchez', serif; */
+
+/*
+  black: #363636
+  blue: #3FB9BE
+  light-grey: #D8D8D8
+  dark-grey: #979797
+  white: #FFFFFF
+*/
+#bootMargin {
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#blueFont {
+  color: #3fb9be;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.thin {
+  font-weight: lighter;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.sanchez {
+  font-family: 'Sanchez', serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.navSize {
+  font-size: 1.5rem;
+}
+
+.mainBlock{
+  margin: auto;
+  max-width: 1380px;
+}
+
+#zenLogo {
+  height: 60px;
+  width: auto;
+}
+
+.homeHead {
+  background-size: contain;
+}
+
+.homePosts {
+  width: 100%;
+  margin: 30px auto;
+}
+
+.postContent {
+  width: 100%;
+  margin: auto;
+}
+
+#head {
+ font-size: 42px;
+ color: #363636;
+ margin-bottom: 1rem;
+}
+
+#headContent {
+ color: #363636;
+ line-height: 44px;
+ margin: auto;
+ font-size: 36px;
+}
+
+.homePostTitle {
+  margin-top: 20px;
+	height: 44px;
+	width: 1200px;
+	color: #363636;
+	font-family: Lato;
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 44px;
+}
+
+#breathingRoom {
+  margin-top: 20px;
+}
+
+.homePostContent {
+  margin-top: 20px;
+  color: #363636;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.readMore {
+  margin-top: 20px;
+  height: 29px;
+	color: #3FB9BE;
+	font-family: Sanchez;
+	font-size: 24px;
+	line-height: 31px;
+}
+
+#zenLogoFooter {
+  display: block;
+  height: 70px;
+  width: auto;
+  float: left;
+}
+#zenFooter {
+ font-size: 58px;
+ font-family: Sanchez;
+ line-height: 1;
+}
+
+#termsPolicy {
+  color: #3FB9BE;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: auto;
+}
