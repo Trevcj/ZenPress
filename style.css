@@ -17,6 +17,13 @@ font-family: 'Sanchez', serif; */
   dark-grey: #979797
   white: #FFFFFF
 */
+img.alignright {float:right; margin:0 0 1em 1em; border-radius: 9px; width: 400px; height: auto;}
+img.alignleft {float:left; margin:0 1em 1em 0; border-radius: 9px; width: 400px; height: auto;}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto; border-radius: 9px; width: 400px; height: auto;}
+a img.alignright {float:right; margin:0 0 1em 1em; border-radius: 9px; width: 400px; height: auto;}
+a img.alignleft {float:left; margin:0 1em 1em 0; border-radius: 9px; width: 400px; height: auto;}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto; border-radius: 9px; width: 400px; height: auto;}
+
 #bootMargin {
   margin-top: 0px;
   margin-left: auto;
@@ -44,7 +51,7 @@ font-family: 'Sanchez', serif; */
 }
 
 .center {
-  text-align: center;
+  text-align: left;
 }
 
 .navSize {
@@ -53,7 +60,7 @@ font-family: 'Sanchez', serif; */
 
 .mainBlock{
   margin: auto;
-  max-width: 1380px;
+  max-width: 1200px;
 }
 
 #zenLogo {
@@ -76,16 +83,67 @@ font-family: 'Sanchez', serif; */
 }
 
 #head {
- font-size: 42px;
+ font-size: 35px;
+ line-height: 45px;
  color: #363636;
  margin-bottom: 1rem;
 }
 
 #headContent {
  color: #363636;
- line-height: 44px;
+ line-height: 24px;
  margin: auto;
- font-size: 36px;
+ font-size: 20px;
+}
+.rec_2 {
+  width: 100%;
+  height: 90px;
+  background-color: #F1F4F5;
+  display: flex;
+}
+
+.headContainer {
+  margin: auto 20px;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+#headIcons {
+  height: 40px;
+  width: 40px;
+  margin: auto 10px;
+}
+
+.share {
+  color: #363636;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  margin: auto 12px;
+  float: left;
+}
+
+#btn_Container {
+  position: absolute;
+  right: 0px;
+  margin: auto 10px;
+}
+
+.sub#btn {
+  height: 40px;
+  width: 159px;
+  border: 2px solid #363636;
+  border-radius: 32px;
+  font-family: Sanchez;
+  font-size: 24px;
+  text-align: center;
+  padding: 0 6px;
+  float: right;
+}
+
+.btn_Content {
+  margin: 0 auto;
 }
 
 .homePostTitle {
@@ -114,29 +172,233 @@ font-family: 'Sanchez', serif; */
 
 .readMore {
   margin-top: 20px;
-  height: 29px;
 	color: #3FB9BE;
 	font-family: Sanchez;
 	font-size: 24px;
 	line-height: 31px;
 }
 
-#zenLogoFooter {
-  display: block;
-  height: 70px;
-  width: auto;
-  float: left;
-}
-#zenFooter {
- font-size: 58px;
- font-family: Sanchez;
- line-height: 1;
+.row {
+   display: flex;
+   flex-wrap: wrap;
 }
 
-#termsPolicy {
-  color: #3FB9BE;
+.row > div[class*='col-'] {
+  display: flex;
+}
+
+.back_img_most_recent#radius {
+  height: 100%;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  min-height: 450px;
+  max-height: 450px
+}
+
+.most_recent {
+  margin: auto;
+}
+
+.most_recent.text {
+  margin: auto 30px;
+}
+
+.back_img {
+  width: 100%;
+  height: 175px;
+  background-size: cover;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px
+}
+.blogpost_title {
+  color: #363636;
+  font-family: Sanchez;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.blogpost_title_recent {
+  color: #363636;
+  font-family: Sanchez;
+  font-size: 26px;
+  line-height: 33px;
+  margin-bottom: 12px;
+}
+
+.blogpost_excerpt_recent {
+  color: #363636;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 200;
+  margin: auto;
+}
+
+.blogpost_excerpt {
+  color: #363636;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 18px;
+}
+
+.card_foot {
+  margin: 0 auto 10px 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.card_foot.text {
+  margin: 0 auto 10px 40px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.foot_date {
+  color: #363636;
+  font-family: Lato;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.foot_author {
+  color: #363636;
+  font-family: Lato;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.start_content {
+  width: 444px;
+  margin: 5rem auto;
+}
+
+.start_llc {
+  color: #363636;
+  font-family: Sanchez;
+  font-size: 50px;
+  text-align: center;
+}
+
+.minutes {
+  color: #363636;
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.the_btn {
+  margin: auto;
+  width: 400px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#start_btn {
+  height: 64px;
+  width: 400px;
+  border-radius: 32px;
+  background-color: #3FB9BE;
+  color: #FFFFFF;
+  font-family: Sanchez;
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+  border: none;
+}
+
+.pay_fees {
   font-family: Lato;
   font-size: 24px;
   font-weight: 300;
-  margin-bottom: auto;
+  line-height: 29px;
+  text-align: center;
+}
+
+.wp_footer {
+	width: 100%;
+	height: 200px;
+	background-color: #363636;
+  left: 0;
+	bottom: 0;
+	display: flex;
+}
+
+.footer_content {
+  margin: auto;
+}
+
+.pDiv {
+  width: 378px;
+  margin: auto;
+}
+
+.terms {
+  font-size: 24px;
+  font-family: Lato;
+  font-weight: 300;
+  color: #3FB9BE;
+  display: inline;
+  text-align: center;
+}
+
+#bullet {
+  font-size: 25px;
+  font-weight: bolder;
+  line-height: 17px;
+  color: #3FB9BE;
+  display: inline;
+  text-align: center;
+  margin: auto 2px;
+}
+
+#copyRight {
+  font-family: Lato;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.socialIcons {
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+#zenIcons {
+	height: 64px;
+  margin: auto 15px;
+}
+.single_page {
+  margin: 30px auto;
+}
+.single_title {
+  color: #363636;
+  font-family: Sanchez;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.single_date{
+  font-family: Lato;
+  font-size: 14px;
+  display: inline;
+}
+.single_author{
+  font-family: Lato;
+  font-size: 14px;
+  margin-left: 15px;
+  display: inline;
+}
+.single_content {
+  color: #363636;
+  font-size: 18px;
+  font-family: Lato;
+  margin: 20px auto;
 }
