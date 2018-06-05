@@ -46,7 +46,7 @@
 
     <?php if (is_front_page()): ?>
       <div class="container-fluid homeHead" style="padding: 0px;">
-        <div class="row-fluid" style="background: url(<?php echo get_bloginfo('template_url'); ?>/assets/images/Icons.png); background-size: cover; height: 180px; display: flex;">
+        <div class="row-fluid" style="background: url(<?php echo get_bloginfo('template_url'); ?>/assets/images/BlogHeader1.svg); background-size: cover; height: 180px; display: flex;">
           <div class="col center" style="margin: auto 15px">
             <h1 class="sanchez" id="head">Welcome to <?php bloginfo('name'); ?></h1>
             <h2 class="lato light">
@@ -59,13 +59,12 @@
             <img id="headIcons" src="<?php echo get_bloginfo('template_url') ?>/assets/images/Blue.svg">
             <img id="headIcons" src="<?php echo get_bloginfo('template_url') ?>/assets/images/BlueTW.svg">
             <img id="headIcons" src="<?php echo get_bloginfo('template_url') ?>/assets/images/faceBlue.svg">
-            <img id="headIcons" src="<?php echo get_bloginfo('template_url') ?>/assets/images/BlueIn.svg">
+            <img id="headIcons" src="<?php echo get_bloginfo('template_url') ?>/assets/images/BlueEmail.svg">
             <p class="share">SHARE</p>
           <div id="btn_Container">
             <button type="button" id="btn" class="btn btn-outline-dark sub"><span class="btn_Content">subscribe</span></button>
           </div>
           </div>
-
         </div>
 
     <?php else :?>
@@ -74,13 +73,12 @@
           <img id="headIcons" src="<?php echo get_bloginfo('template_url') ?>/assets/images/Blue.svg">
           <img id="headIcons" src="<?php echo get_bloginfo('template_url') ?>/assets/images/BlueTW.svg">
           <img id="headIcons" src="<?php echo get_bloginfo('template_url') ?>/assets/images/faceBlue.svg">
-          <img id="headIcons" src="<?php echo get_bloginfo('template_url') ?>/assets/images/BlueIn.svg">
+          <img id="headIcons" src="<?php echo get_bloginfo('template_url') ?>/assets/images/BlueEmail.svg">
           <p class="share">SHARE</p>
         <div id="btn_Container">
           <button type="button" id="btn" class="btn btn-outline-dark sub"><span class="btn_Content">subscribe</span></button>
         </div>
         </div>
-
       </div>
     <?php endif ?>
     </div>

@@ -17,12 +17,56 @@ font-family: 'Sanchez', serif; */
   dark-grey: #979797
   white: #FFFFFF
 */
-img.alignright {float:right; margin:0 0 1em 1em; border-radius: 9px; width: 400px; height: auto;}
-img.alignleft {float:left; margin:0 1em 1em 0; border-radius: 9px; width: 400px; height: auto;}
-img.aligncenter {display: block; margin-left: auto; margin-right: auto; border-radius: 9px; width: 400px; height: auto;}
-a img.alignright {float:right; margin:0 0 1em 1em; border-radius: 9px; width: 400px; height: auto;}
-a img.alignleft {float:left; margin:0 1em 1em 0; border-radius: 9px; width: 400px; height: auto;}
-a img.aligncenter {display: block; margin-left: auto; margin-right: auto; border-radius: 9px; width: 400px; height: auto;}
+
+img.alignright {
+  float: right;
+  margin: 0 0 1em 1em;
+  border-radius: 9px;
+  width: 400px;
+  height: auto;
+}
+
+img.alignleft {
+  float: left;
+  margin: 0 1em 1em 0;
+  border-radius: 9px;
+  width: 400px;
+  height: auto;
+}
+
+img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 9px;
+  width: 400px;
+  height: auto;
+}
+
+a img.alignright {
+  float: right;
+  margin: 0 0 1em 1em;
+  border-radius: 9px;
+  width: 400px;
+  height: auto;
+}
+
+a img.alignleft {
+  float: left;
+  margin: 0 1em 1em 0;
+  border-radius: 9px;
+  width: 400px;
+  height: auto;
+}
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 9px;
+  width: 400px;
+  height: auto;
+}
 
 #bootMargin {
   margin-top: 0px;
@@ -58,7 +102,7 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto; border
   font-size: 1.5rem;
 }
 
-.mainBlock{
+.mainBlock {
   margin: auto;
   max-width: 1200px;
 }
@@ -83,18 +127,19 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto; border
 }
 
 #head {
- font-size: 35px;
- line-height: 45px;
- color: #363636;
- margin-bottom: 1rem;
+  font-size: 35px;
+  line-height: 45px;
+  color: #363636;
+  margin-bottom: 1rem;
 }
 
 #headContent {
- color: #363636;
- line-height: 24px;
- margin: auto;
- font-size: 20px;
+  color: #363636;
+  line-height: 24px;
+  margin: auto;
+  font-size: 20px;
 }
+
 .rec_2 {
   width: 100%;
   height: 90px;
@@ -148,13 +193,13 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto; border
 
 .homePostTitle {
   margin-top: 20px;
-	height: 44px;
-	width: 1200px;
-	color: #363636;
-	font-family: Lato;
-	font-size: 36px;
-	font-weight: 300;
-	line-height: 44px;
+  height: 44px;
+  width: 1200px;
+  color: #363636;
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 44px;
 }
 
 #breathingRoom {
@@ -172,18 +217,18 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto; border
 
 .readMore {
   margin-top: 20px;
-	color: #3FB9BE;
-	font-family: Sanchez;
-	font-size: 24px;
-	line-height: 31px;
+  color: #3FB9BE;
+  font-family: Sanchez;
+  font-size: 24px;
+  line-height: 31px;
 }
 
 .row {
-   display: flex;
-   flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.row > div[class*='col-'] {
+.row>div[class*='col-'] {
   display: flex;
 }
 
@@ -212,6 +257,7 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto; border
   border-top-left-radius: 9px;
   border-top-right-radius: 9px
 }
+
 .blogpost_title {
   color: #363636;
   font-family: Sanchez;
@@ -321,12 +367,12 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto; border
 }
 
 .wp_footer {
-	width: 100%;
-	height: 200px;
-	background-color: #363636;
+  width: 100%;
+  height: 200px;
+  background-color: #363636;
   left: 0;
-	bottom: 0;
-	display: flex;
+  bottom: 0;
+  display: flex;
 }
 
 .footer_content {
@@ -367,35 +413,41 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto; border
 }
 
 .socialIcons {
-	color: white;
-	text-align: center;
-	width: 100%;
-	margin: auto;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: auto;
 }
+
 #zenIcons {
-	height: 64px;
+  height: 64px;
   margin: auto 15px;
 }
+
 .single_page {
   margin: 30px auto;
 }
+
 .single_title {
   color: #363636;
   font-family: Sanchez;
   font-size: 36px;
   margin-bottom: 10px;
 }
-.single_date{
+
+.single_date {
   font-family: Lato;
   font-size: 14px;
   display: inline;
 }
-.single_author{
+
+.single_author {
   font-family: Lato;
   font-size: 14px;
   margin-left: 15px;
   display: inline;
 }
+
 .single_content {
   color: #363636;
   font-size: 18px;

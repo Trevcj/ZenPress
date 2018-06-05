@@ -6,6 +6,11 @@
     <a id="start_btn" class="btn btn-primary" href="#" role="button">Start Now</a>
   </div>
   <p class="pay_fees">Pay $0 to file plus <span id="blueFont">state filing fees</span></p>
+  <div class="badges" style="margin: auto; width: 279px; margin-top: 30px;">
+    <img style="display: inline; height: 110px; margin: auto 13px;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/BadgeGurantee.svg" alt="">
+    <img style="display: inline; height: 110px; margin: auto 13px;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/BadgeMoney Back.svg" alt="">
+  </div>
+
 </div>
 <div class="wp_footer">
   <div class="footer_content">

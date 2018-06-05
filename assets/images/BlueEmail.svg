@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>social/email/Blue</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="social/email/Blue" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="twitterBlue" fill="#3FB9BE" fill-rule="nonzero">
+            <circle id="Oval" cx="32" cy="32" r="32"></circle>
+        </g>
+        <g id="Group" transform="translate(10.000000, 17.000000)" stroke="#FFFFFF" stroke-width="3">
+            <path d="M2.48780488,3.5 L22,13.5" id="Line" stroke-linecap="round" stroke-linejoin="round"></path>
+            <rect id="Rectangle" x="1.5" y="1.5" width="41" height="27" rx="5"></rect>
+            <path d="M2.5,27.5 L13.5,10.5" id="Line-2" stroke-linecap="round"></path>
+            <path d="M30.5,27.5 L41.5,10.5" id="Line-2" stroke-linecap="round" transform="translate(36.000000, 19.000000) scale(-1, 1) translate(-36.000000, -19.000000) "></path>
+            <path d="M22,3.5 L41.5121951,13.5" id="Line" stroke-linecap="round" stroke-linejoin="round" transform="translate(31.756098, 8.500000) scale(-1, 1) translate(-31.756098, -8.500000) "></path>
+        </g>
+    </g>
+</svg>
